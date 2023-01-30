@@ -1,0 +1,145 @@
+/* Used Reset CSS Tool, in another file */
+
+.header {
+    display: inline-flex;
+    align-items:center;
+}
+
+.logo {
+    font-family: 'Notable', sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+a:link { 
+    color:black;
+}
+
+a:visited { 
+    color: black; 
+}
+
+a:hover { 
+    text-decoration: underline; 
+}
+
+a:active { 
+    color: #6667AB; 
+}
+
+.header li {
+    font-family: 'Noto Sans', sans-serif;
+    display: inline-flex;
+    position: relative;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.right-top-nav {
+    margin-bottom: 10%;
+    float: right;
+    font-weight: bold;
+}
+
+.right-bottom-nav {
+    margin-right: 10%;
+    float: right;
+}
+
+.bar {
+    width: 100%;
+    height: 40px;
+    background: #6667AB;
+    margin-bottom: 2em;
+}
+
+.middle-content {
+    border: 5px black solid;
+    width: 90%;
+    height: 17em;
+    display: grid;
+    margin: auto;
+    grid-template-rows: 100%;
+    grid-template-columns: 25% 25% 50%;
+    font-family: 'Noto Sans', sans-serif;
+    overflow: auto;
+}
+
+.across-first-half {
+    grid-column: 1;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 57px;
+    text-align: center;
+    margin: auto;
+}
+.heart-icon {
+    grid-column: 2;
+    margin: auto;
+}
+.across-second-half {
+    grid-column: 3;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    line-height: 29px;
+    padding: 20px;
+}
+
+.bottom-content {
+    width: 90%;
+    height: 28em;
+    display: grid;
+    margin: 3em auto;
+    grid-template-rows: 100%;
+    grid-template-columns: 28% 28% 28%;
+    column-gap: 5em;
+    font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
+}
+
+.first-bottom {
+    grid-column: 1;
+    margin: 0;
+    padding: 0;
+    line-height: 29px;
+    background-color: rgba(102, 103, 171, 0.25);
+    border: 30px rgba(102, 103, 171, 0.0) solid;
+}
+
+.second-bottom {
+    grid-column: 2;
+    margin: 0;
+    padding: 0;
+    line-height: 29px;
+    background-color: rgba(102, 103, 171, 0.25);
+    border: 30px rgba(102, 103, 171, 0.0) solid;
+}
+
+button {
+    background-color: #6667AB;
+    border: none;
+    padding: 20px 50px;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+button a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.third-bottom {
+    grid-column: 3;
+    margin: 0;
+    padding: 0;
+    line-height: 29px;
+    background-color: rgba(102, 103, 171, 0.25);
+    border: 30px rgba(102, 103, 171, 0.0) solid;
+}
