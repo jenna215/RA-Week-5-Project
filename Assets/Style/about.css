@@ -1,0 +1,26 @@
+@import url("stylesheet.css");
+
+.about-content {
+    width: 90%;
+    display: grid;
+    margin: auto;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+}
+
+.left-image {
+    grid-column: 1;
+}
+
+.right-text {
+    overflow: auto;
+    grid-column: 2;
+    color: white;
+    background-color: black;  
+    font-family: 'Noto Sans', sans-serif;
+    size: 16px;
+    line-height: 29px;
+    border: 30px black solid;    
+    margin: 0;
+    padding: 0;
+}
